@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/css.css">
+<title>Admin page</title>
+</head>
+<body>
+<div id="admin_content">
+
+<h2>Asg3 test</h2>
+	<form name="asg3" action="php/asg3_test.php" method="post">
+		<input type="submit" value="ASGTest" />
+	</form>
+
+	<h2>Check the list of reservation</h2>
+	<form name="reserve_list" action="php/reserve_list.php" method="get">
+		<input type="submit" value="reserve_list" />
+	</form>
+<h2>Sort by order date</h2>
+	<form name="order_date" action="php/order_date.php" method="get">
+		<input type="submit" value="order_date" />
+	</form>
+<h2>Sort by order first name</h2>
+	<form name="first_name" action="php/first_name.php" method="get">
+		<input type="submit" value="first_name" />
+	</form>
+<h2>Sort by order last name</h2>
+	<form name="last_name" action="php/last_name.php" method="get">
+		<input type="submit" value="last_name" />
+	</form>
+<h2>Search by rphone</h2>
+	<form name="search" action="php/search.php" method="post">
+		rPhone: <input type="text" name="rphone" /> <input name="Submit" type="submit"
+			value="search" />
+	</form>
+<h2>Send a confirmation email to the user to collect cPhone 60</h2>
+	<form name="sendemail" action="php/send_email.php" method="post">
+    Email: <input type="email" name="email" /> 
+		<input type="submit" value="send" />
+	</form>
+
+</body>
+</html>
